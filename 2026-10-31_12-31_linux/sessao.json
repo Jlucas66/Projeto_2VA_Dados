@@ -1,0 +1,93 @@
+{
+  "plataforma": "linux",
+  "inicio": "2026-10-31T12:31:30-03:00",
+  "fim": "2026-10-31T20:31:49-03:00",
+  "maquina": {
+    "sistema": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "cpu": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+    "ram_gb": 15.6,
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "driver_nvidia": "595.99.02"
+  },
+  "versoes": {
+    "unreal": "5.4.4-35576357+++UE5+Release-5.4",
+    "plugin_dlss": "8.6.1-NGX310.6.0",
+    "plugin_streamline": "8.6.1-SL2.11.1"
+  },
+  "configuracao": {
+    "horas_por_teste": 8.0,
+    "intervalo_amostra_s": 5,
+    "pausa_entre_testes_min": 10,
+    "resolucao": [
+      2560,
+      1080
+    ],
+    "modo_janela": "fullscreen",
+    "rhi": "dx12",
+    "ray_tracing_hardware": true,
+    "executavel": "/home/darkness/UE5BenchmarkBuild/Windows/Benchmark/Binaries/Win64/Benchmark.exe",
+    "argumentos_extras": [
+      "-slnoota",
+      "-ini:Engine:[/Script/DLSS.DLSSSettings]:bAllowOTAUpdate=False",
+      "-unattended",
+      "-nosplash",
+      "-NoVerifyGC"
+    ],
+    "proton": {
+      "lancador": "/home/darkness/.local/share/umu/umu-run",
+      "proton": "GE-Proton11-11",
+      "proton_path": "/home/darkness/.local/share/Steam/compatibilitytools.d/GE-Proton11-11-x86_64",
+      "wine_prefix": "/home/darkness/.local/share/bench-prefix",
+      "variaveis": {
+        "PROTON_ENABLE_NVAPI": "1",
+        "PROTON_ENABLE_NGX_UPDATER": "0",
+        "UMU_RUNTIME_UPDATE": "0"
+      }
+    }
+  },
+  "testes": [
+    {
+      "id": 2,
+      "nome": "02_dlss",
+      "features": [
+        "dlss"
+      ],
+      "cvars": {
+        "r.VSync": "0",
+        "t.MaxFPS": "0",
+        "t.IdleWhenNotForeground": "0",
+        "r.AntiAliasingMethod": "4",
+        "r.NGX.DLSS.Preset": "0",
+        "r.NGX.DLSSRR.Preset": "0",
+        "r.NGX.DLSS.Enable": "1",
+        "r.Streamline.DLSSG.Enable": "0",
+        "r.NGX.DLSS.DenoiserMode": "0",
+        "r.ScreenPercentage": "100"
+      },
+      "arquivo": "02_dlss.csv",
+      "status": "completo",
+      "inicio": "2026-10-31T12:31:31-03:00",
+      "fim": "2026-10-31T20:31:48-03:00",
+      "horas": 8.005,
+      "execucoes": 1,
+      "reinicios": 0,
+      "amostras": 5759,
+      "processos": "02_dlss_processos.csv",
+      "eventos_sistema": "02_dlss_eventos_sistema.txt",
+      "dlss": {
+        "dlss_sr": "Supported",
+        "dlss_rr": "Supported",
+        "dlssg": "NotSupportedIncompatibleHardware",
+        "dlss_mode": "Quality",
+        "dlssg_mode": "Off"
+      },
+      "ray_tracing": true,
+      "ota_ativa": false,
+      "problemas": [],
+      "logs": [],
+      "resolucao_real": "2560x1080",
+      "rhi_real": "D3D12",
+      "n_eventos_sistema": 783
+    }
+  ]
+}

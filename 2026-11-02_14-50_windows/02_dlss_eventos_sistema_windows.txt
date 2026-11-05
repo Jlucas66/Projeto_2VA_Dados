@@ -1,0 +1,64 @@
+Eventos do sistema de 2026-11-02 14:50:10 a 2026-11-02 22:50:22
+
+================================================================================
+Sistema (avisos, erros e criticos; inclui o driver de video): 3 evento(s)
+================================================================================
+Event[0]:
+  Log Name: System
+  Source: Microsoft-Windows-TPM-WMI
+  Date: 2026-11-02T14:53:05.6210000Z
+  Event ID: 1801
+  Task: N/A
+  Level: Erro
+  Opcode: Informaþ§es
+  Keyword: N/A
+  User: S-1-5-18
+  User Name: AUTORIDADE NT\SISTEMA
+  Computer: DESKTOP-5N974GM
+  Description: 
+As ca/chaves de inicializaþÒo segura precisam ser atualizadas. Estas informaþ§es de assinatura do dispositivo estÒo incluÝdas aqui.
+DeviceAttributes: BaseBoardManufacturer:MSI;FirmwareManufacturer:American Megatrends Inc.;FirmwareVersion:1.40;OEMModelBaseBoard:Z270 SLI PLUS (MS-7A59);OEMManufacturerName:MSI;OSArchitecture:amd64;
+BucketId: d0bc3a3824279907baf7ad89160c80fbefe5bfb9d5bb04bfa471c888fc2b625a
+BucketConfidenceLevel: 
+UpdateType: 0
+HResult: A operaþÒo foi concluÝda com Ûxito.
+
+Event[1]:
+  Log Name: System
+  Source: Microsoft-Windows-DNS-Client
+  Date: 2026-11-02T16:22:29.9660000Z
+  Event ID: 1014
+  Task: N/A
+  Level: Aviso
+  Opcode: Informaþ§es
+  Keyword: N/A
+  User: S-1-5-20
+  User Name: AUTORIDADE NT\SERVIÃO DE REDE
+  Computer: DESKTOP-5N974GM
+  Description: 
+A resoluþÒo de nome para o nome optimizationguide-pa.googleapis.com expirou depois que nenhum dos servidores DNS configurados respondeu.
+
+Event[2]:
+  Log Name: System
+  Source: Microsoft-Windows-DNS-Client
+  Date: 2026-11-02T16:28:08.5760000Z
+  Event ID: 1014
+  Task: N/A
+  Level: Aviso
+  Opcode: Informaþ§es
+  Keyword: N/A
+  User: S-1-5-20
+  User Name: AUTORIDADE NT\SERVIÃO DE REDE
+  Computer: DESKTOP-5N974GM
+  Description: 
+A resoluþÒo de nome para o nome optimizationguide-pa.googleapis.com expirou depois que nenhum dos servidores DNS configurados respondeu.
+
+================================================================================
+Windows Update (downloads e instalacoes): 0 evento(s)
+================================================================================
+(nenhum)
+
+================================================================================
+Aplicativo (erros e criticos; inclui programas que travaram): 0 evento(s)
+================================================================================
+(nenhum)

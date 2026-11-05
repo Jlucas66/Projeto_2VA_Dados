@@ -1,0 +1,4 @@
+﻿sessao,teste,processo,cpu_max_pct,mem_max_mb,vezes_registrado,primeira_hora,ultima_hora,cpu_media_pct
+2026-10-31_12-31_linux,02_dlss,GameThread,46.3,2725.3,479,0.01679,8.00378,44.26
+2026-10-31_12-31_linux,02_dlss,gnome-software,3.9,564.0,480,0.0,8.00378,0.01
+2026-10-31_12-31_linux,02_dlss,gnome-shell,0.1,434.1,480,0.0,8.00378,0.0

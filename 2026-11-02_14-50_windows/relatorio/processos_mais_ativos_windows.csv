@@ -1,0 +1,5 @@
+﻿sessao,teste,processo,cpu_max_pct,mem_max_mb,vezes_registrado,primeira_hora,ultima_hora,cpu_media_pct
+2026-11-02_14-50_windows,02_dlss,MsMpEng.exe,1.2,414.4,479,0.0,7.9913,0.03
+2026-11-02_14-50_windows,02_dlss,nvcontainer.exe,3.0,73.5,2,0.6689,0.68566,0.01
+2026-11-02_14-50_windows,02_dlss,System,2.6,1.6,3,0.01675,7.23898,0.01
+2026-11-02_14-50_windows,02_dlss,AggregatorHost.exe,1.4,9.1,1,0.96984,0.96984,0.0
